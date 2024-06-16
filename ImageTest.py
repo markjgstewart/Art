@@ -21,7 +21,8 @@ for i in range(20):
 for i in range(200):
 	r = random.randint(0,255)
 	g = random.randint(0,255)
-	b = random.randint(0,255)
+	#b = random.randint(0,255)
+	b=255-r
 	sizeExp = random.randint(1,8)
 	size = pow(2,sizeExp)
 	x = random.randint(0,1000)
