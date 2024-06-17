@@ -10,7 +10,7 @@ for i in range(20):
 	r = random.randint(0,255)
 	g = random.randint(0,255)
 	b = random.randint(0,255)
-	sizeExp = random.randint(1,8)
+	sizeExp = random.randint(1,8) #makes sizes of all boxes factors of 2 of each other
 	size = pow(2,sizeExp)
 	x = random.randint(0,1000)
 	y= random.randint(0,1000)
